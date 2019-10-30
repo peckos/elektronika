@@ -1,0 +1,46 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body>header{
+    background-color: #2780E3;
+    width: 100%;
+}
+body>header>section{
+    display: inline-block;
+}
+
+body>header h1{
+    color: #fff;
+    font-size: 10px;
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+body>header>nav{
+    float: right;
+}
+
+body>header>nav>ul{
+    margin: 0;
+}
+
+body>header>nav>ul li{
+    display: inline;
+}
+
+.main-nav li{
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+.main-nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header{
+    background-color: blueviolet;
+}
